@@ -1,5 +1,7 @@
 package ru.core.calc;
 
+import static ru.core.condition.Point.distance;
+
 /**
  * return param.
  */
@@ -16,5 +18,6 @@ public class MathFunction {
     public static void main(String[] args) {
         System.out.println(MathFunction.func1(3));
         System.out.println(MathFunction.func2(5));
+        System.out.println(distance(0, 0, 4, 0));
     }
 }
