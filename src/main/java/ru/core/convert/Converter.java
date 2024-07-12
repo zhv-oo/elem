@@ -7,12 +7,16 @@ public class Converter {
         return value / 88;
     }
 
-    public static float rubToEuro(float value) {
+    public static float rubToEu(float value) {
         return value / 95;
     }
 
     public static void main(String[] args) {
-        System.out.println(rubToDol(196));
-        System.out.println(rubToEuro(1000));
+        float rubToDollar = rubToDol(176);
+        float rubTOEuro = rubToEu(285);
+        System.out.println(rubToDollar);
+        System.out.println(rubToDollar);
+        System.out.println(rubToDollar == 2);
+        System.out.println(rubTOEuro == 3);
     }
 }
